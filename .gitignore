@@ -1,31 +1,31 @@
-/vendor/
+
+# Dependencias
 node_modules/
-npm-debug.log
-yarn-error.log
+vendor/
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
+# Entorno y secretos (NUNCA committear)
 .env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
-/.phpunit.cache
+.env.local
+.env.*.local
+*.pem
 
-/public/build
-/storage/pail
-.env.backup
-.env.production
-.phpactor.json
-auth.json
+# Base de datos local de desarrollo
+backend/database/*.sqlite
+backend/database/*.sqlite-journal
+
+# Builds
+.next/
+out/
+build/
+dist/
+
+# Caché y logs
+.cache/
+*.log
+npm-debug.log*
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
