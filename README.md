@@ -16,6 +16,7 @@ concreta por WhatsApp. Equipo de 3: **A** (Frontend/Estilo) · **B** (Backend/AP
 | [`plan-tienda-urbana.md`](plan-tienda-urbana.md) | Plan completo: fases, roles, riesgos |
 | [`schema.sql`](schema.sql) | Referencia del esquema de BD (las migrations producen esto) |
 | [`api-contracts.md`](api-contracts.md) | Contrato de la API. **Nunca cambiar en silencio** |
+| [`docs/estudio/`](docs/estudio/README.md) | Apuntes de estudio: por qué de cada decisión + conceptos por fase |
 
 ## Levantar el proyecto (desarrollo local)
 
