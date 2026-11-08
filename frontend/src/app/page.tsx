@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { ApiStatus } from "@/components/api-status";
 
 /**
@@ -21,7 +23,20 @@ export default function Home() {
         por WhatsApp.
       </p>
 
-      <div className="mt-10">
+      <div className="mt-9 flex flex-col items-center gap-6">
+        <Link
+          href="/productos"
+          className="group inline-flex items-center gap-3 rounded-full bg-amber-400 px-7 py-3 text-xs font-bold uppercase tracking-widest text-neutral-950 transition hover:bg-amber-300 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-400"
+        >
+          Ver productos
+          <span
+            aria-hidden
+            className="transition-transform duration-300 group-hover:translate-x-1"
+          >
+            →
+          </span>
+        </Link>
+
         <ApiStatus />
       </div>
 
